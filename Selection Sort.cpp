@@ -24,10 +24,6 @@ void selectionSort(int arr[], int n)
 	}
 }
 
-void printArray(int arr[], int size)
-{
-	
-}
 
 int main()
 {
@@ -35,7 +31,6 @@ int main()
 	int n = sizeof(arr)/sizeof(arr[0]);
 	selectionSort(arr, n);
 	cout << "Sorted array: \n";
-	printArray(arr, n);
     int i;
 	for (i=0; i < n; i++)
 		cout << arr[i] << " ";
